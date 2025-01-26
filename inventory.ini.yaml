@@ -1,12 +1,15 @@
 [mysql]
-mysql.kiran.fun
-
+mysql.kiran.fun ansible_user=ec2-user ansible_password=DevOps321
 [backend]
 backend.kiran.fun
-
 [frontend]
 forthend.kiran.fun
-
 [all:vars]
 ansible_user=ec2-user
 ansible_password=DevOps321
+
+
+
+
+
+
